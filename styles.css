@@ -1,0 +1,66 @@
+body,
+div,
+img,
+video {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+.container div,
+.container img,
+.container video {
+    position: absolute;
+}
+.container,
+.exit-btn {
+    width: 180px;
+    height: 648px;
+}
+.border {
+    width: 180px;
+    height: 648px;
+    overflow: hidden;
+}
+.exit-btn {
+    cursor: pointer;
+}
+.border {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.bg{
+    width: 180px;
+    height: 648px;
+    background: #2eb0c6;
+}
+.cafeDiv { 
+    overflow: hidden;
+    width: 6px; 
+    height: 64px;
+    left: 87px;
+    top: 388px; 
+}
+.cafeDiv2 { 
+    overflow: hidden;
+    width: 35px; 
+    height: 29px;
+}
+.steamContainer{
+    left: 60px;
+    top: 395px;
+    width: 60px;
+    height: 80px;
+    overflow: hidden;
+}
+.cafeDiv2, .cafe2 {
+    perspective: 600px;
+    -webkit-perspective: 600px;
+    backface-visibilitiy:hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+   -webkit-transform-style: preserve-3d;
+}
